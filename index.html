@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeIPNHlRAbqE-MaeM3lNyYG5kA6M0DCdmrIBfCmQ-OoiIiIZw/formResponse"
+    method="POST"
+    target="hidden_iframe"
+    onsubmit="submitted()">
+
+        <label>Name:</label>
+        <input type="text" name="entry.366340186" required>
+
+        <label>Step 1 Score:10</label>
+        <input type="text" name="entry.1795117899" required>
+
+        <label>Step 2 Score:10</label>
+        <input type="text" name="entry.351652093" required>
+
+        <label>Step 3 Score:20</label>
+        <input type="text" name="entry.1593708613" required>
+
+        <label>Step 4 Score:30</label>
+        <input type="text" name="entry.805660280" required>
+
+        <label>Step 5 Score:15</label>
+        <input type="text" name="entry.499247199" required>
+
+        <label>Step 6 Score:15</label>
+        <input type="text" name="entry.1181860016" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+    <p id="msg" style="display:none;color:green;">
+    ✅ Response Submitted!
+    </p>
+
+<script>
+function submitted(){
+ document.getElementById("msg").style.display="block";
+}
+</script>
+</body>
+</html>
