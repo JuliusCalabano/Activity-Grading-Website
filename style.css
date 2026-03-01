@@ -2,7 +2,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
-    margin:0;
+    margin:50px;
     height:100vh;
     display:flex;
     justify-content:center;
@@ -104,3 +104,10 @@ button:hover{
         font-size:15px;
     }
 }
+
+
+
+
+
+
+/*https://docs.google.com/forms/d/e/1FAIpQLSeIPNHlRAbqE-MaeM3lNyYG5kA6M0DCdmrIBfCmQ-OoiIiIZw/formResponse*/
